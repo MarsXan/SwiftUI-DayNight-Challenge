@@ -14,6 +14,7 @@
 		82782A9E2A83DF0000204C7A /* DayNightChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782A9D2A83DF0000204C7A /* DayNightChallengeTests.swift */; };
 		82782AA82A83DF0000204C7A /* DayNightChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782AA72A83DF0000204C7A /* DayNightChallengeUITests.swift */; };
 		82782AAA2A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782AA92A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift */; };
+		82782AB72A83E1D600204C7A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82782AB62A83E1D500204C7A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		82782AA32A83DF0000204C7A /* DayNightChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayNightChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82782AA72A83DF0000204C7A /* DayNightChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightChallengeUITests.swift; sourceTree = "<group>"; };
 		82782AA92A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82782AB62A83E1D500204C7A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		82782A802A83DEFB00204C7A = {
 			isa = PBXGroup;
 			children = (
+				82782AB62A83E1D500204C7A /* .gitignore */,
 				82782A8B2A83DEFB00204C7A /* DayNightChallenge */,
 				82782A9C2A83DF0000204C7A /* DayNightChallengeTests */,
 				82782AA62A83DF0000204C7A /* DayNightChallengeUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82782A942A83DEFF00204C7A /* Preview Assets.xcassets in Resources */,
+				82782AB72A83E1D600204C7A /* .gitignore in Resources */,
 				82782A912A83DEFF00204C7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
