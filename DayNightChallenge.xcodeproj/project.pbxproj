@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		82782A8D2A83DEFB00204C7A /* DayNightChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782A8C2A83DEFB00204C7A /* DayNightChallengeApp.swift */; };
-		82782A8F2A83DEFB00204C7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782A8E2A83DEFB00204C7A /* ContentView.swift */; };
 		82782A912A83DEFF00204C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82782A902A83DEFF00204C7A /* Assets.xcassets */; };
 		82782A942A83DEFF00204C7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82782A932A83DEFF00204C7A /* Preview Assets.xcassets */; };
 		82782A9E2A83DF0000204C7A /* DayNightChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782A9D2A83DF0000204C7A /* DayNightChallengeTests.swift */; };
 		82782AA82A83DF0000204C7A /* DayNightChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782AA72A83DF0000204C7A /* DayNightChallengeUITests.swift */; };
 		82782AAA2A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782AA92A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift */; };
 		82782AB72A83E1D600204C7A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82782AB62A83E1D500204C7A /* .gitignore */; };
+		82782AB92A83E31800204C7A /* MoonMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782AB82A83E31800204C7A /* MoonMask.swift */; };
+		82782ABB2A83E36700204C7A /* DayNightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782ABA2A83E36700204C7A /* DayNightView.swift */; };
+		82782ABF2A83E3C200204C7A /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782ABE2A83E3C200204C7A /* Colors+Ext.swift */; };
+		82782AC12A83E49F00204C7A /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82782AC02A83E49F00204C7A /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		82782A892A83DEFB00204C7A /* DayNightChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayNightChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82782A8C2A83DEFB00204C7A /* DayNightChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightChallengeApp.swift; sourceTree = "<group>"; };
-		82782A8E2A83DEFB00204C7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82782A902A83DEFF00204C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82782A932A83DEFF00204C7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82782A992A83DF0000204C7A /* DayNightChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayNightChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,10 @@
 		82782AA72A83DF0000204C7A /* DayNightChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightChallengeUITests.swift; sourceTree = "<group>"; };
 		82782AA92A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		82782AB62A83E1D500204C7A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		82782AB82A83E31800204C7A /* MoonMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonMask.swift; sourceTree = "<group>"; };
+		82782ABA2A83E36700204C7A /* DayNightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightView.swift; sourceTree = "<group>"; };
+		82782ABE2A83E3C200204C7A /* Colors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Ext.swift"; sourceTree = "<group>"; };
+		82782AC02A83E49F00204C7A /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,9 @@
 		82782A8B2A83DEFB00204C7A /* DayNightChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				82782ABD2A83E3B200204C7A /* Utils */,
+				82782ABC2A83E3A400204C7A /* View */,
 				82782A8C2A83DEFB00204C7A /* DayNightChallengeApp.swift */,
-				82782A8E2A83DEFB00204C7A /* ContentView.swift */,
 				82782A902A83DEFF00204C7A /* Assets.xcassets */,
 				82782A922A83DEFF00204C7A /* Preview Content */,
 			);
@@ -128,6 +135,24 @@
 				82782AA92A83DF0000204C7A /* DayNightChallengeUITestsLaunchTests.swift */,
 			);
 			path = DayNightChallengeUITests;
+			sourceTree = "<group>";
+		};
+		82782ABC2A83E3A400204C7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82782ABA2A83E36700204C7A /* DayNightView.swift */,
+				82782AB82A83E31800204C7A /* MoonMask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82782ABD2A83E3B200204C7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82782ABE2A83E3C200204C7A /* Colors+Ext.swift */,
+				82782AC02A83E49F00204C7A /* View+Ext.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82782A8F2A83DEFB00204C7A /* ContentView.swift in Sources */,
+				82782ABB2A83E36700204C7A /* DayNightView.swift in Sources */,
+				82782ABF2A83E3C200204C7A /* Colors+Ext.swift in Sources */,
+				82782AC12A83E49F00204C7A /* View+Ext.swift in Sources */,
+				82782AB92A83E31800204C7A /* MoonMask.swift in Sources */,
 				82782A8D2A83DEFB00204C7A /* DayNightChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

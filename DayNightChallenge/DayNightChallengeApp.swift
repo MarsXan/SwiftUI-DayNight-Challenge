@@ -11,7 +11,7 @@ import SwiftUI
 struct DayNightChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DayNightView()
         }
     }
 }
